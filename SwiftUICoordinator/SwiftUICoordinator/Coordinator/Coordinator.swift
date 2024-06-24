@@ -82,7 +82,9 @@ final class Coordinator: ObservableObject {
     func build(sheet: Sheet) -> some View {
         switch sheet {
         case .strawberry:
-            StrawberryView()
+            NavigationStack {
+                StrawberryView()
+            }
         }
     }
     
@@ -90,7 +92,9 @@ final class Coordinator: ObservableObject {
     func build(fullScreenCover: FullScreenCover) -> some View {
         switch fullScreenCover {
         case .cherry:
-            CherryView()
+            NavigationStack {
+                CherryView()
+            }
         }
     }
 
