@@ -11,6 +11,11 @@
 		2351650A2C2A0A6200F38F2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235165092C2A0A6200F38F2D /* ContentView.swift */; };
 		2351650C2C2A0A6400F38F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2351650B2C2A0A6400F38F2D /* Assets.xcassets */; };
 		235165102C2A0A6400F38F2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2351650F2C2A0A6400F38F2D /* Preview Assets.xcassets */; };
+		235165172C2A0A8300F38F2D /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235165162C2A0A8300F38F2D /* AppleView.swift */; };
+		235165192C2A0A8B00F38F2D /* OrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235165182C2A0A8B00F38F2D /* OrangeView.swift */; };
+		2351651B2C2A0A9400F38F2D /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351651A2C2A0A9400F38F2D /* BananaView.swift */; };
+		2351651D2C2A0A9D00F38F2D /* CherryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351651C2C2A0A9D00F38F2D /* CherryView.swift */; };
+		2351651F2C2A0AA700F38F2D /* StrawberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351651E2C2A0AA700F38F2D /* StrawberryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		2351650B2C2A0A6400F38F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2351650D2C2A0A6400F38F2D /* SwiftUICoordinator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICoordinator.entitlements; sourceTree = "<group>"; };
 		2351650F2C2A0A6400F38F2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		235165162C2A0A8300F38F2D /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
+		235165182C2A0A8B00F38F2D /* OrangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeView.swift; sourceTree = "<group>"; };
+		2351651A2C2A0A9400F38F2D /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
+		2351651C2C2A0A9D00F38F2D /* CherryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryView.swift; sourceTree = "<group>"; };
+		2351651E2C2A0AA700F38F2D /* StrawberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		235165062C2A0A6200F38F2D /* SwiftUICoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				235165202C2A0AE900F38F2D /* Views */,
 				235165072C2A0A6200F38F2D /* SwiftUICoordinatorApp.swift */,
 				235165092C2A0A6200F38F2D /* ContentView.swift */,
 				2351650B2C2A0A6400F38F2D /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				2351650F2C2A0A6400F38F2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		235165202C2A0AE900F38F2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				235165162C2A0A8300F38F2D /* AppleView.swift */,
+				235165182C2A0A8B00F38F2D /* OrangeView.swift */,
+				2351651A2C2A0A9400F38F2D /* BananaView.swift */,
+				2351651C2C2A0A9D00F38F2D /* CherryView.swift */,
+				2351651E2C2A0AA700F38F2D /* StrawberryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2351650A2C2A0A6200F38F2D /* ContentView.swift in Sources */,
+				235165172C2A0A8300F38F2D /* AppleView.swift in Sources */,
+				2351651F2C2A0AA700F38F2D /* StrawberryView.swift in Sources */,
+				235165192C2A0A8B00F38F2D /* OrangeView.swift in Sources */,
+				2351651D2C2A0A9D00F38F2D /* CherryView.swift in Sources */,
 				235165082C2A0A6200F38F2D /* SwiftUICoordinatorApp.swift in Sources */,
+				2351651B2C2A0A9400F38F2D /* BananaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
