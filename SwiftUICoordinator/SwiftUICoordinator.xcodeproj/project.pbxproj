@@ -16,6 +16,7 @@
 		2351651D2C2A0A9D00F38F2D /* CherryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351651C2C2A0A9D00F38F2D /* CherryView.swift */; };
 		2351651F2C2A0AA700F38F2D /* StrawberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351651E2C2A0AA700F38F2D /* StrawberryView.swift */; };
 		235165222C2A0BB300F38F2D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235165212C2A0BB300F38F2D /* Coordinator.swift */; };
+		235165242C2A0E8800F38F2D /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235165232C2A0E8800F38F2D /* CoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2351651C2C2A0A9D00F38F2D /* CherryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryView.swift; sourceTree = "<group>"; };
 		2351651E2C2A0AA700F38F2D /* StrawberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryView.swift; sourceTree = "<group>"; };
 		235165212C2A0BB300F38F2D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		235165232C2A0E8800F38F2D /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,9 @@
 		235165062C2A0A6200F38F2D /* SwiftUICoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				235165252C2A0F1F00F38F2D /* Coordinator */,
 				235165202C2A0AE900F38F2D /* Views */,
 				235165072C2A0A6200F38F2D /* SwiftUICoordinatorApp.swift */,
-				235165212C2A0BB300F38F2D /* Coordinator.swift */,
 				2351650B2C2A0A6400F38F2D /* Assets.xcassets */,
 				2351650D2C2A0A6400F38F2D /* SwiftUICoordinator.entitlements */,
 				2351650E2C2A0A6400F38F2D /* Preview Content */,
@@ -90,6 +92,15 @@
 				2351651E2C2A0AA700F38F2D /* StrawberryView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		235165252C2A0F1F00F38F2D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				235165232C2A0E8800F38F2D /* CoordinatorView.swift */,
+				235165212C2A0BB300F38F2D /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				2351651D2C2A0A9D00F38F2D /* CherryView.swift in Sources */,
 				235165082C2A0A6200F38F2D /* SwiftUICoordinatorApp.swift in Sources */,
 				2351651B2C2A0A9400F38F2D /* BananaView.swift in Sources */,
+				235165242C2A0E8800F38F2D /* CoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
