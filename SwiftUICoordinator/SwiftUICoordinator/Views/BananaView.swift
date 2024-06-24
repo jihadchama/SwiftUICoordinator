@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct BananaView: View {
+
+    @EnvironmentObject private var coordinator: Coordinator
+
     var body: some View {
         List {
-            Button("Push 🍊") { }
+            Button("Push 🍊") {
+                coordinator.push(.orange)
+            }
             
-            Button("Pop") { }
+            Button("Pop") {
+                coordinator.pop()
+            }
         }
         .navigationTitle("🍌")
     }

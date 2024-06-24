@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct OrangeView: View {
+    
+    @EnvironmentObject private var coordinator: Coordinator
+    
     var body: some View {
         List {
-            Button("Pop") { }
+            Button("Pop") {
+                coordinator.pop()
+            }
             
-            Button("Pop to root") { }
+            Button("Pop to root") {
+                coordinator.popToRoot()
+            }
         }
         .navigationTitle("🍊")
     }

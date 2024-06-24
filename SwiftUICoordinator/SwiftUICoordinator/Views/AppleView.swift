@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct AppleView: View {
+    
+    @EnvironmentObject private var coordinator: Coordinator
+    
     var body: some View {
         List {
-            Button("Push 🍌") { }
+            Button("Push 🍌") { 
+                coordinator.push(.banana)
+            }
             
-            Button("Present 🍓") { }
+            Button("Present 🍓") {
+                coordinator.present(sheet: .strawberry)
+            }
             
-            Button("Present 🍒") { }
+            Button("Present 🍒") {
+                coordinator.present(fullScreenCover: .cherry)
+            }
         }
         .navigationTitle("🍎")
     }

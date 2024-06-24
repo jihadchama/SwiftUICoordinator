@@ -86,10 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				235165162C2A0A8300F38F2D /* AppleView.swift */,
-				235165182C2A0A8B00F38F2D /* OrangeView.swift */,
 				2351651A2C2A0A9400F38F2D /* BananaView.swift */,
-				2351651C2C2A0A9D00F38F2D /* CherryView.swift */,
+				235165182C2A0A8B00F38F2D /* OrangeView.swift */,
 				2351651E2C2A0AA700F38F2D /* StrawberryView.swift */,
+				2351651C2C2A0A9D00F38F2D /* CherryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

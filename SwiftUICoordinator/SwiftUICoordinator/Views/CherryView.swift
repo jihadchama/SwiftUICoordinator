@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct CherryView: View {
+    
+    @EnvironmentObject private var coordinator: Coordinator
+
     var body: some View {
         List {
-            Button("Dismiss") { }
+            Button("Dismiss") {
+                coordinator.dismissFullScreenCover()
+            }
         }
         .navigationTitle("🍒")
     }
